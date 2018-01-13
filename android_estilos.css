@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.cabeza{
+	padding: 0;
+	position:absolute;
+    margin-top: 50px;/* ajuste posicion de la cabeza*/
+    margin-left: 550px;
+	position: absolute;
+	width: 220px;
+	height: 100px;
+	background-color: #A4CA39;
+	border-radius: 100px   100px 0  0 ;
+}
+.ojo1{
+    margin-left: 150px;
+    margin-top: 40px;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+}
+.ojo2{
+
+    margin-left: 50px;
+    margin-top: -20px;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+}
+.cuernito1{
+	transform : rotate(150deg);
+	margin-left: 50px;
+	margin-top: -30px;
+	width: 7px;
+	height: 45px;
+	background-color: #A4CA39;
+	border-radius: 60px;
+	margin-bottom: -20px;/* ajuste de la posicion de los ojos*/
+
+}
+.cuernito2{
+	transform : rotate(-150deg);
+	margin-left: 155px;
+	margin-top: -45px;
+	width: 7px;
+	height: 45px;
+	background-color: #A4CA39;
+	border-radius: 60px;
+	margin-bottom: -20px;/* ajuste de la posicion de los ojos*/
+
+}
+.cuerpo{
+	margin-left: 497px;
+	margin-top: 160px;
+	display: inline-block;
+}
+.brazo1{
+	margin-bottom: 125px;/* 50px era posicion anterior */
+	width: 50px;
+	height: 150px;
+	background-color: #A4CA39;
+	border-radius: 50px;
+	display: inline-block;
+}
+.tronco{
+	display: inline-block;
+	width: 220px;
+	height: 200px;
+	background-color: #A4CA39;
+	border-radius: 0 0 25px 25px;
+}
+.brazo2{
+	margin-bottom: 125px;/* 50px era posicion anterior */
+	width: 50px;
+	height: 150px;
+	background-color: #A4CA39;
+	border-radius: 50px;
+	display: inline-block;
+}
+.tronco .pies1{
+
+	margin-left: 50px;
+	margin-top: 130px;
+	background-color: #A4CA39;
+	width: 50px;
+	height: 150px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.tronco .pies2{
+	background-color:#A4CA39;
+	margin-left: 20px;
+	width: 50px; display: inline-block;
+	height: 150px;
+    border-radius: 50px;
+}
